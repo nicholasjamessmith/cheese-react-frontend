@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 function Post({ post }) {
   const div = {
     textAlign: 'center',
-    border: '3px solid',
+    border: '3px solid orange',
     margin: '10px auto',
-    width: "80%"
+    width: "60%"
   }
   
   return <div style={div}>

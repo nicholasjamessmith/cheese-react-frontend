@@ -5,9 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:rgb(246, 240, 165);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1, h2, h3 {
+color: rgb(243, 162, 0);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+font-size: larger;
+font-weight: 500;
 }

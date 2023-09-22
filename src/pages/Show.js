@@ -6,7 +6,7 @@ function Show(props) {
   
   const div = {
     textAlign: "center",
-    border: "3px solid green",
+    border: "3px solid orange",
     width: "80%",
     margin: "30px auto",
   };
@@ -37,10 +37,10 @@ function Show(props) {
             placeholder="Origin Country"
             defaultValue={post.origin_country}
           />
-          <button>Update Cheese</button>
+          <button className="button" color="orange">Update Cheese</button>
         </Form>
         <Form method="post" action={`/delete/${post.id}`}>
-            <button>Delete Cheese</button>
+            <button className="button">Delete Cheese</button>
         </Form>
       </div>
       <Link to="/">Back to Index</Link>
